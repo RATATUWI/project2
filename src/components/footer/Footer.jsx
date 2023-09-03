@@ -1,11 +1,9 @@
 import React from 'react'
 import './footer.css'
-import { AiFillHome } from 'react-icons/ai';
-import { BsFillTelephoneFill } from 'react-icons/bs';
-import { AiFillMail } from 'react-icons/ai';
-import { BsFacebook } from 'react-icons/bs';
-import { AiFillInstagram } from 'react-icons/ai';
-import { AiFillTwitterCircle } from 'react-icons/ai';
+import { AiFillHome, AiFillMail, AiFillInstagram, AiFillTwitterCircle} from 'react-icons/ai';
+import { BsFillTelephoneFill, BsFacebook } from 'react-icons/bs';
+
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -35,7 +33,7 @@ const Footer = () => {
                 <div className="footerIcon"><AiFillInstagram/> </div>
                 johnnreey
             </div>
-            <div className="social">
+            <div className="home">
                 <div className="footerIcon"><AiFillTwitterCircle/></div>
                 johnnreey
             </div>
