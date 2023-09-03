@@ -1,0 +1,49 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background-color: #7335B7;
+    border-bottom-right-radius: 12rem;
+    
+}
+.introContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12rem;
+}
+.introImgBg{
+    height: 40rem;
+    display: flex;
+    margin-top: -5rem;
+}
+.introText{
+    max-width: 40rem;
+    text-align: center;
+    margin-left: -5rem;
+    margin-top: -5rem;
+}
+.introTextTitle{
+    font-size: 3rem;
+    margin: 0.5rem 0;
+    font-weight: 700;
+}
+.introTextDesc{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.contactBtn{
+    padding: 0.9rem;
+    width: 11rem;
+    margin-top: 4rem;
+    border: none;
+    outline: none;
+    background-color: #F8842B;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+#about{
+    overflow: hidden;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #7335B7;
+    height: calc(100vh - 4rem);
+    border-bottom-right-radius: 12rem;
+    border-top-left-radius: 12rem;
+    margin: 4rem 0;
+}
+.aboutContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+}
+.aboutText{
+    max-width: 35rem;
+    text-align: left;
+}
+.aboutImg{
+    width: 35rem;
+}
+.aboutTextTitle{
+    font-size: 2rem;
+    margin: 1rem 0;
+}

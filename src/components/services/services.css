@@ -1,0 +1,39 @@
+#services{
+    overflow: hidden;
+    height: calc(100vh - 4rem);
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 4rem auto;
+    color: black;
+    flex-direction: column;
+}
+.servicesTextTitle{
+    font-size: 2rem;
+}
+.servicesTextDesc{
+    font-weight: 400;
+}
+.servicesIcon{
+    width: 4rem;
+}
+.servicesOffer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem auto;
+}
+.servicesOfferBorder{
+    width: 16.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    padding: 2.5rem 0;
+}
+.borderTitle{
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}

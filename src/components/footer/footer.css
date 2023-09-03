@@ -1,0 +1,42 @@
+.footer{
+    width: 100vw;
+    height: 14rem;
+    background-color: #7335B7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.footerContent{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 1.7rem;
+}
+.address{
+    margin-right: 15rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.addressTitle{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.home{
+    display: flex;
+    align-items: center;
+}
+.footerIcon{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+.social{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.footerDesc{
+    margin-top: 2rem;
+}
